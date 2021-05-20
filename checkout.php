@@ -137,7 +137,7 @@ span.price {
 						</div>
 						<div class="col-50">
 							<label for="zip">Zip</label>
-							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?$" required>
+							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{4}(?:-[0-9]{4})?$" required>
 						</div>
 						</div>
 					</div>
@@ -162,7 +162,7 @@ span.price {
                         <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
                     </div>
 						<label for="expdate">Exp Date</label>
-						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})$" placeholder="12/22"required>
+						<input type="text" id="expdate" name="expdate" class="form-control" placeholder="12/22"required>
 						
 
 						<div class="row">

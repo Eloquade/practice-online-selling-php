@@ -10,9 +10,31 @@
 								<h3 class="footer-title">About Us</h3>
 								
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>address</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>9846372444</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>abc@gmail.com</a></li>
+									<li>
+										<a href="https://github.com/Eloquade" target="_blank" style="color: white;">
+											<i class="fa fa-github" aria-hidden="true"></i>Lawrence Perez
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/jheavejimenez" target="_blank" style="color: white;">
+											<i class="fa fa-github" aria-hidden="true"></i>Jheave Jimenez
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/MadDog-afk" target="_blank" style="color: white;">
+											<i class="fa fa-github" aria-hidden="true"></i>Darell Andre Dumalay
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/groundrenzo" target="_blank" style="color: white;">
+											<i class="fa fa-github" aria-hidden="true"></i>Renzo Florendo
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/Donna127-beep" target="_blank" style="color: white;">
+											<i class="fa fa-github" aria-hidden="true"></i>Renzo Florendo
+										</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -32,18 +54,6 @@
 							</span>
 						</div>
 
-						<div class="col-md-3 col-xs-6">
-							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
-								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Women</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
-								</ul>
-							</div>
-						</div>
 
 						<div class="clearfix visible-xs"></div>
 
