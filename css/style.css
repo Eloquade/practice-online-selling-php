@@ -58,8 +58,8 @@ Table OF Contents
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
-    
+  background-color: #7DA2A9;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2B2D42;
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
@@ -665,16 +664,6 @@ background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, 
   padding-bottom: 15px;
 }
 
-/*=========================================================
-	03 -> Navigation
-===========================================================*/
-
-#navigation {
-  background: #FFF;
-  border-bottom: 2px solid #E4E7ED;
-  border-top: 3px solid #D10024;
-}
-
 /*----------------------------*\
 	Main nav
 \*----------------------------*/
@@ -688,7 +677,7 @@ background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, 
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #00B4DB;  /* fallback for old browsers */
+  color: #05F4B7;  
 
 
   background-color: transparent;
@@ -1989,23 +1978,26 @@ background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10
 ===========================================================*/
 
 #newsletter.section {
-  border-top: 2px solid #E4E7ED;
-  border-bottom: 3px solid #D10024;
   margin-top: 30px;
+
 }
 
 .newsletter {
   text-align: center;
+
 }
 
 .newsletter p {
   font-size: 24px;
+  color: #fff;
+
 }
 
 .newsletter form {
   position: relative;
   max-width: 520px;
   margin: 30px auto;
+
 }
 
 .newsletter form:after {
@@ -2020,6 +2012,7 @@ background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10
   transform: translateY(-50%) rotate(15deg);
   z-index: -1;
   left: -90px;
+
 }
 
 .newsletter form .input {
