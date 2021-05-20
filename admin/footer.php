@@ -3,8 +3,8 @@
           <nav class="float-left">
             <ul>
               <li>
-                <a href="">
-                  PuneethReddy
+                <a href="https://github.com/Eloquade/practice-online-shopping-php" target="_blank">
+                  Our Repository
                 </a>
               </li>
             </ul>
@@ -14,7 +14,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="" target="_blank">Puneethreddy</a> for a better web.
+            <a href="" target="_blank">RTU-STUDENTS</a> for a better web.
           </div>
           <!-- your footer here -->
         </div>
