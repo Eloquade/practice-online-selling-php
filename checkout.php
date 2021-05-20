@@ -162,7 +162,7 @@ span.price {
                         <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
                     </div>
 						<label for="expdate">Exp Date</label>
-						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})$" placeholder="12/22"required>
+						<input type="text" id="expdate" name="expdate" class="form-control" placeholder="12/22"required>
 						
 
 						<div class="row">
