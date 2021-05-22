@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2021 at 03:54 PM
+-- Generation Time: May 22, 2021 at 05:31 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -264,7 +264,43 @@ CREATE TABLE `products` (
 INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_title`, `product_price`, `product_desc`, `product_image`, `product_keywords`) VALUES
 (1, 1, 2, 'Samsung galaxy s7 edge', 5000, 'Samsung galaxy s7 edge', 'product07.png', 'samsung mobile electronics'),
 (4, 1, 3, 'iPhone 6s', 32000, 'Apple iPhone ', 'http___pluspng.com_img-png_iphone-6s-png-iphone-6s-gold-64gb-1000.png', 'iphone apple mobile'),
-(8, 1, 4, 'Sony', 40000, 'Sony Mobile', '530201353846AM_635_sony_xperia_z.png', 'sony mobile');
+(8, 1, 4, 'Sony', 40000, 'Sony Mobile', '530201353846AM_635_sony_xperia_z.png', 'sony mobile'),
+(82, 1, 1, 'Redmi 9T', 7200, 'Dimensions      	162.3 x 77.3 x 9.6 mm (6.39 x 3.04 x 0.38 in)\r\nWeight	                198 g (6.98 oz)\r\nBuild	               Glass front (Gorilla Glass 3), plastic frame, plastic back\r\nSIM	Dual SIM (Nano-SIM, dual stand-by)\r\n 	Water-repellent coating\r\nDISPLAY	Type	IPS LCD, 400 nits (typ)\r\nSize	6.53 inches, 104.7 cm2 (~83.4% screen-to-body ratio)\r\nResolution	1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)\r\nProtection	Corning Gorilla Glass 3\r\nPLATFORM	OS	Android 10, MIUI 12\r\nChipset	Qualcomm SM6115 Snapdragon 662 (11 nm)\r\nCPU	Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)\r\nGPU	Adreno 610', '1621693409_Redmi 9t.jpg', 'Redmi 9t'),
+(83, 1, 1, 'Poco M3', 8000, 'Test', '1621694578_Poco m3.jpg', 'Poco M3'),
+(84, 1, 1, 'Vivo Y19', 10000, 'BODY	Dimensions	162.2 x 76.5 x 8.9 mm (6.39 x 3.01 x 0.35 in)\r\nWeight	193 g (6.81 oz)\r\nBuild	Glass front, plastic back, plastic frame\r\nSIM	Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)\r\nDISPLAY	Type	IPS LCD\r\nSize	6.53 inches, 104.7 cm2 (~84.4% screen-to-body ratio)\r\nResolution	1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)\r\nPLATFORM	OS	Android 9.0 (Pie), Funtouch 9.2\r\nChipset	Mediatek MT6768 Helio P65 (12nm)\r\nCPU	Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)\r\nGPU	Mali-G52 MC2\r\nMEMORY	Card slot	microSDXC (dedicated slot)\r\nInternal	128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM\r\n 	eMMC 5.1\r\nMAIN CAMERA	Triple	16 MP, f/1.8, (wide), PDAF\r\n8 MP, f/2.2, 13mm (ultrawide)\r\n2 MP, f/2.4, (macro)\r\nFeatures	LED flash, HDR, panorama\r\nVideo	1080p@30fps\r\nSELFIE CAMERA	Single	16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm\r\nFeatures	HDR\r\nVideo	1080p@30fps', '1621695096_Vivo y19.jpg', 'VIvo y19'),
+(85, 1, 1, 'Huawei P30', 10000, 'BODY	Dimensions	162.2 x 76.5 x 8.9 mm (6.39 x 3.01 x 0.35 in)\r\nWeight	193 g (6.81 oz)\r\nBuild	Glass front, plastic back, plastic frame\r\nSIM	Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)\r\nDISPLAY	Type	IPS LCD\r\nSize	6.53 inches, 104.7 cm2 (~84.4% screen-to-body ratio)\r\nResolution	1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)\r\nPLATFORM	OS	Android 9.0 (Pie), Funtouch 9.2\r\nChipset	Mediatek MT6768 Helio P65 (12nm)\r\nCPU	Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)\r\nGPU	Mali-G52 MC2\r\nMEMORY	Card slot	microSDXC (dedicated slot)\r\nInternal	128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM\r\n 	eMMC 5.1\r\nMAIN CAMERA	Triple	16 MP, f/1.8, (wide), PDAF\r\n8 MP, f/2.2, 13mm (ultrawide)\r\n2 MP, f/2.4, (macro)\r\nFeatures	LED flash, HDR, panorama\r\nVideo	1080p@30fps\r\nSELFIE CAMERA	Single	16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm\r\nFeatures	HDR\r\nVideo	1080p@30fps', '1621695200_huawei-p30-pro.jpg', 'Huawei P30'),
+(86, 1, 1, 'Realme 8 Pro', 12000, 'BODY	Dimensions	160.6 x 73.9 x 8.1 mm (6.32 x 2.91 x 0.32 in)\r\nWeight	176 g (6.21 oz)\r\nBuild	Glass front, plastic frame, plastic back\r\nSIM	Dual SIM (Nano-SIM, dual stand-by)\r\nDISPLAY	Type	Super AMOLED, 430 nits (typ), 1000 nits (peak)\r\nSize	6.4 inches, 98.9 cm2 (~83.3% screen-to-body ratio)\r\nResolution	1080 x 2400 pixels, 20:9 ratio (~411 ppi density)\r\n 	Always-on display\r\nPLATFORM	OS	Android 11, Realme UI 2.0\r\nChipset	Qualcomm SM7125 Snapdragon 720G (8 nm)\r\nCPU	Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver)\r\nGPU	Adreno 618\r\nMEMORY	Card slot	microSDXC (dedicated slot)\r\nInternal	128GB 6GB RAM, 128GB 8GB RAM\r\n 	UFS 2.1\r\nMAIN CAMERA	Quad	108 MP, f/1.9, 26mm (wide), 1/1.52\", 0.7µm, PDAF\r\n8 MP, f/2.3, 119?, 16mm (ultrawide), 1/4.0\", 1.12µm\r\n2 MP, f/2.4, (macro)\r\n2 MP, f/2.4, (depth)\r\nFeatures	LED flash, HDR, panorama\r\nVideo	4K@30fps, 1080p@30/60/120/480fps, 720p@960fps, gyro-EIS\r\nSELFIE CAMERA	Single	16 MP, f/2.5, (wide), 1/3.0\", 1.0µm\r\nFeatures	HDR, panorama\r\nVideo	1080p@30/120fps, gyro-EIS', '1621695291_realme_8_Pro_L_1.jpg', 'Realme 8 Pro'),
+(87, 1, 1, 'Realme 7', 7000, 'BODY	Dimensions	162.3 x 75.4 x 9.4 mm (6.39 x 2.97 x 0.37 in)\r\nWeight	196.5 g (6.95 oz)\r\nBuild	Glass front (Gorilla Glass 3), plastic back, plastic frame\r\nSIM	Dual SIM (Nano-SIM, dual stand-by)\r\nDISPLAY	Type	IPS LCD, 90Hz, 480 nits (typ)\r\nSize	6.5 inches, 102.0 cm2 (~83.4% screen-to-body ratio)\r\nResolution	1080 x 2400 pixels, 20:9 ratio (~405 ppi density)\r\nProtection	Corning Gorilla Glass 3\r\nPLATFORM	OS	Android 10, Realme UI\r\nChipset	Mediatek Helio G95 (12 nm)\r\nCPU	Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)\r\nGPU	Mali-G76 MC4\r\nMEMORY	Card slot	microSDXC (dedicated slot)\r\nInternal	64GB 6GB RAM, 128GB 8GB RAM\r\n 	UFS 2.1\r\nMAIN CAMERA	Quad	64 MP, f/1.8, 26mm (wide), 1/1.73\", 0.8µm, PDAF\r\n8 MP, f/2.3, 119?, 16mm (ultrawide), 1/4.0\", 1.12µm\r\n2 MP, f/2.4, (macro)\r\n2 MP, f/2.4, (depth)\r\nFeatures	LED flash, HDR, panorama\r\nVideo	4K@30fps, 1080p@30/60/120fps, gyro-EIS\r\nSELFIE CAMERA	Single	16 MP, f/2.1, 26mm (wide), 1/3.1\", 1.0µm\r\nFeatures	Panorama\r\nVideo	1080p@30/120fps', '1621695345_Reame 7.jpg', 'Realme 7'),
+(88, 2, 6, 'Women dress !', 500, 'Test', '1621695558_1 dress.jpg', 'Dress 1'),
+(89, 2, 6, 'Women dress 2', 500, 'Test', '1621695594_2 Dress.jpg', 'Dress 2'),
+(90, 2, 6, 'Women Dress 3', 500, 'Test', '1621695626_3 Dress.jpg', 'Dress 3'),
+(91, 2, 6, 'Women Dress 4', 500, 'Test', '1621695699_4 Dress.jpg', 'Dress 4'),
+(92, 2, 6, 'Women Dress 5', 500, 'Test', '1621695737_5 dress.jpg', 'Dress 5'),
+(93, 2, 6, 'Women Dress 6', 500, 'Test', '1621695831_6 dress.jpg', 'Dress 6'),
+(94, 2, 6, 'Women Dress 7', 500, 'Test', '1621695866_7 Dress.jpg', 'Dress 7'),
+(95, 2, 6, 'Women Dress 8', 500, 'test', '1621695899_8 Dress.jpg', 'Dress 7'),
+(96, 2, 6, 'Women Dress 8', 500, 'Test', '1621695934_8 Dress.jpg', 'Dress 8'),
+(97, 2, 6, 'Women Dress 9', 500, 'Test', '1621695962_9 Dress.jpg', 'Dress 9'),
+(98, 3, 6, 'Mens Shirt 1', 500, 'Test', '1621696168_Mens Shirt 1.jpg', 'Shirt 1'),
+(99, 3, 6, 'Mens Shirt 2', 500, 'Test', '1621696192_Mens Shirt 2.png', 'Shirt 2'),
+(100, 3, 6, 'Mens Shirt 3', 500, 'Test', '1621696222_Mens shirt 3.jpg', 'Shirt 3'),
+(101, 3, 6, 'Mens shirt 4', 500, 'Test', '1621696282_Mens shirt 4.jpg', 'Shirt 4'),
+(102, 3, 6, 'Men Shirt 5', 500, 'Test', '1621696326_Mens shirt 5.jpg', 'Shirt 5'),
+(103, 3, 6, 'Mens Shirt 6', 500, 'Test', '1621696410_Mens shirt 6.jpg', 'Shirt 6'),
+(104, 3, 6, 'Mens Shirt 6', 500, 'Test', '1621696470_Mens shirt 6.jpg', 'Shirt 6'),
+(105, 3, 6, 'Mens Shirt 7', 500, 'Test', '1621696522_Mens shirt 7.jpg', 'Shirt 7'),
+(106, 3, 6, 'Mens Shirt 8', 500, 'Test', '1621696576_Mens Shirt 8.jpg', 'Shirt 8'),
+(107, 3, 6, 'Mens Shirt 8', 500, 'Test', '1621696632_Mens Shirt 8.jpg', 'Dress 8'),
+(108, 3, 6, 'Mens Shirt 9', 500, 'Test', '1621696662_Mens shirt 9.jpg', 'Shirt 9'),
+(109, 4, 6, 'Kids Wear 1', 500, 'test', '1621696906_Kids 1.jpg', 'Kids 1'),
+(110, 4, 6, 'Kids Wear 2', 500, 'Test', '1621696938_Kids 2.jpg', 'Kids 2'),
+(111, 4, 6, 'Kids Wear 3', 500, 'Test', '1621696988_Kids 3.jpg', 'Kids 3'),
+(112, 4, 6, 'Kids Wear 4', 500, 'Test', '1621697018_Kids 4.jpg', 'Kids 4'),
+(113, 4, 6, 'KIds Wear 5', 500, 'Test', '1621697045_Kids 5.jpg', 'Kids 5'),
+(114, 4, 6, 'Kids Wear 6', 500, 'Test', '1621697070_Kids 6.jpg', 'Kids 6'),
+(115, 4, 6, 'Kids wear 7', 500, 'Test', '1621697098_Kids 7.jpg', 'Kids 7'),
+(116, 4, 6, 'Kids Wear 8', 500, 'Test', '1621697152_KIds 8.jpg', 'Kids 8'),
+(117, 4, 6, 'Kids Wear 9', 500, 'Test', '1621697191_Kids 9.jpg', 'KIds 9');
 
 -- --------------------------------------------------------
 
@@ -465,7 +501,7 @@ ALTER TABLE `order_products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
+  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
 
 --
 -- AUTO_INCREMENT for table `user_info`
