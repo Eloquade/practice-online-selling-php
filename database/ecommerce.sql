@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2021 at 05:31 PM
+-- Generation Time: May 22, 2021 at 06:30 PM
 -- Server version: 10.4.18-MariaDB
--- PHP Version: 7.3.27
+-- PHP Version: 8.0.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -300,7 +300,35 @@ INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_t
 (114, 4, 6, 'Kids Wear 6', 500, 'Test', '1621697070_Kids 6.jpg', 'Kids 6'),
 (115, 4, 6, 'Kids wear 7', 500, 'Test', '1621697098_Kids 7.jpg', 'Kids 7'),
 (116, 4, 6, 'Kids Wear 8', 500, 'Test', '1621697152_KIds 8.jpg', 'Kids 8'),
-(117, 4, 6, 'Kids Wear 9', 500, 'Test', '1621697191_Kids 9.jpg', 'KIds 9');
+(117, 4, 6, 'Kids Wear 9', 500, 'Test', '1621697191_Kids 9.jpg', 'KIds 9'),
+(118, 5, 6, 'Chair 1', 1000, 'Chair', '1621699640_chair 1.jpg', 'chair 1'),
+(119, 5, 6, 'chair 2', 1200, 'good condition', '1621699696_chair 2.jpg', 'chair 2'),
+(120, 5, 6, 'Chair 3', 2000, 'good ', '1621699747_chair 3.jpg', 'chair 3'),
+(121, 5, 6, 'Table 1', 2500, 'good', '1621699833_table 1.jpg', 'Table 1'),
+(122, 5, 6, 'Sofa Bed', 5000, 'haahaaha', '1621699884_sofa bed.jpg', 'Sofa bed'),
+(123, 5, 6, 'Table 2', 6000, 'good pa', '1621699987_table 2.jpg', 'Table 2'),
+(124, 5, 6, 'table 3', 7000, 'table only', '1621700024_table 3.jpg', 'table 3'),
+(125, 5, 6, 'Cabinet 1', 10000, 'good', '1621700052_cabinet 1.jpg', 'Cabinet 1'),
+(126, 5, 6, 'Cabinet 2', 12000, 'Good', '1621700073_cabinet 2.jpg', 'Cabinet 2'),
+(127, 5, 6, 'Cabinet 3', 13000, 'Good', '1621700093_cabinet 3.jpg', 'Cabinet 3'),
+(128, 6, 6, 'Washine machine  1', 13000, 'good ', '1621700190_washing machine 1.jpg', 'Washine machine  1'),
+(129, 6, 6, 'Washine machine  2', 15000, 'Good pa ', '1621700213_washing machine 2.jpg', 'Washine machine  2'),
+(130, 6, 6, 'Washine machine  3', 15000, 'Good pa aayos pa', '1621700239_washing machine 3.jpg', 'Washine machine  3'),
+(131, 6, 6, 'Refrigator 1', 12000, 'Good ', '1621700321_refrigator 1.jpg', 'Refrigator 1'),
+(132, 6, 6, 'Refrigator 2', 12000, 'Good', '1621700347_refrigator 2.jpg', 'Refrigator 2'),
+(133, 6, 6, 'Refrigator 3', 12000, 'good pa', '1621700387_refrigator 3.jpg', 'Refrigator 3'),
+(134, 6, 6, 'TV 1', 7000, 'good as new', '1621700417_tv 1.jpg', 'TV 1'),
+(135, 6, 6, 'TV 2', 12000, 'new', '1621700441_tv 2.jpg', 'TV 2'),
+(136, 6, 6, 'TV 3', 13000, 'new ', '1621700466_tv 3.jpg', 'TV 3'),
+(137, 7, 6, 'Camera 1', 16000, 'good', '1621700537_camera 1.jpg', 'Camera 1'),
+(138, 7, 6, 'Camera 2', 15000, 'New', '1621700559_camera 2.jpg', 'Camera 2'),
+(139, 7, 6, 'Camera 3', 14000, 'Good ', '1621700608_camera 3.jpg', 'Camera 3'),
+(140, 7, 6, 'Watch 1', 6000, 'good as new', '1621700692_watch 1.jpg', 'Watch 1'),
+(141, 7, 6, 'Watch 2', 7000, 'New\r\n', '1621700770_watch 2.jpg', 'Watch 2'),
+(142, 7, 6, 'Watch 3', 7000, 'New', '1621700792_watch 3.jpg', 'Watch 3'),
+(143, 7, 6, 'Headset 1', 1500, 'Good ', '1621700826_headset 1.jpg', 'Headset 1'),
+(144, 7, 6, 'Headset 2', 2000, 'Good ', '1621700849_headset 2.jpg', 'Headset 2'),
+(145, 7, 6, 'Coffee 1', 8000, 'Good pa ', '1621700910_coffee 1.jpg', 'Coffee 1');
 
 -- --------------------------------------------------------
 
@@ -501,7 +529,7 @@ ALTER TABLE `order_products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
+  MODIFY `product_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=146;
 
 --
 -- AUTO_INCREMENT for table `user_info`
