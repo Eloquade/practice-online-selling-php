@@ -91,7 +91,7 @@ include 'header.php';
 					<!-- STORE -->
 					<div id="store" class="col-md-9">
 						<!-- store top filter -->
-						<div class="store-filter clearfix">
+						<!-- <div class="store-filter clearfix">
 							<div class="store-sort">
 								<label>
 									Sort By:
@@ -113,7 +113,7 @@ include 'header.php';
 								<li class="active"><i class="fa fa-th"></i></li>
 								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
 							</ul>
-						</div>
+						</div> -->
 						<!-- /store top filter -->
 
 						<!-- store products -->
