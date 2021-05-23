@@ -55,7 +55,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 					$_SESSION["login"] = true;
 					$BackToMyPage = $_SERVER['HTTP_REFERER'];
 					if(isset($BackToMyPage)) {
-  					 echo "<script>window.location.href='index.php'</script>";
+  					 echo "<script>window.location.href='$BackToMyPage'</script>";
 						} else {
   						  echo "<script>window.location.href='index.php'</script>"; // default page
 				}
@@ -69,7 +69,6 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
                 $sql = "SELECT * FROM admin_info WHERE admin_email = '$email' AND admin_password = '$password'";
                 $run_query = mysqli_query($con,$sql);
                 $count = mysqli_num_rows($run_query);
-				 echo "<script>window.location.href='index.php'</script>";
 
             //if user record is available in database then $count will be equal to 1
             if($count == 1){
