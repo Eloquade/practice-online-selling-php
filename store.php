@@ -51,7 +51,7 @@ include 'header.php';
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->
-						<div class="aside">
+						<!-- <div class="aside">
 							<h3 class="aside-title">Price</h3>
 							<div class="price-filter">
 								<div id="price-slider" class="noUi-target noUi-ltr noUi-horizontal"><div class="noUi-base"><div class="noUi-origin" style="left: 0%;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="100.0" aria-valuenow="0.0" aria-valuetext="1.00" style="z-index: 5;"></div></div><div class="noUi-connect" style="left: 0%; right: 0%;"></div><div class="noUi-origin" style="left: 100%;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="100.0" aria-valuenow="100.0" aria-valuetext="999.00" style="z-index: 4;"></div></div></div></div>
@@ -67,7 +67,7 @@ include 'header.php';
 									<span class="qty-down">-</span>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->
@@ -91,7 +91,7 @@ include 'header.php';
 					<!-- STORE -->
 					<div id="store" class="col-md-9">
 						<!-- store top filter -->
-						<div class="store-filter clearfix">
+						<!-- <div class="store-filter clearfix">
 							<div class="store-sort">
 								<label>
 									Sort By:
@@ -113,7 +113,7 @@ include 'header.php';
 								<li class="active"><i class="fa fa-th"></i></li>
 								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
 							</ul>
-						</div>
+						</div> -->
 						<!-- /store top filter -->
 
 						<!-- store products -->
